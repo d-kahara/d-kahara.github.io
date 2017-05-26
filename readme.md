@@ -4,7 +4,7 @@
 
 ## Description
 
-This is my portfolio page with content about me and my projects.You can view it [here](https://d-kahara.github.io/index.html)
+This is my portfolio page with content about me and my projects.You can view it [here](https://d-kahara.github.io)
 
 ### Contributor
 
