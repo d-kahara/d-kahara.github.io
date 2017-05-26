@@ -4,14 +4,14 @@
 
 ## Description
 
-This is my portfolio page with content about me and my projects.You can view it [here](d-kahara.github.io)
+This is my portfolio page with content about me and my projects.You can view it [here](https://d-kahara.github.io/index.html)
 
 ### Contributor
 
-- David Kahara !  
-[A photo of me](pic1/.jpg)
+- David Kahara !<br>
+  [A photo of me](images/pic1/.jpg)
 
   #### licence
 
-  ** MIT licence**<br>
+  **MIT licence**<br>
   Anyone is free to use this code in any way.
