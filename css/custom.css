@@ -2,7 +2,7 @@
     background-color: #000000;
     color: white;
     font-size: 40px;
-    font-family: 'Metamorphous', cursive;  
+    font-family: 'Metamorphous', cursive;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ body {
   font-family: 'Shadows Into Light', cursive;
 }
 }
-address {
+.address {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
@@ -39,4 +39,8 @@ address {
   font-size: 15px;
   font-family: 'Indie Flower', cursive;
 
+}
+.mail {  
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
 }
