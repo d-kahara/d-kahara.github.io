@@ -1,4 +1,4 @@
-# Hello world
+# My Portfolio
 
 --------------------------------------------------------------------------------
 
@@ -9,7 +9,7 @@ This is my portfolio page with content about me and my projects.You can view it 
 ### Contributor
 
 - David Kahara !<br>
-  [A photo of me](images/pic1/.jpg)
+  ![A photo of me](images/pic1/.jpg)
 
   #### licence
 
