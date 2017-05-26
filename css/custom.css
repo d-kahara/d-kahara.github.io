@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: #2E2D88;
+    color: white;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+body {
+  font-family: 'Shadows Into Light', cursive;
+  background-image: url(images/pic7.jpg);
+}
+}
+.buttons {
+  text-align: center;
+  color: #E0E0CB;
+}
+address {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.fone {
+  text-align: center;
+  text-decoration-color: #86862D
+}
+.img-rounded {
+  float: right;
+}
+.well {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
