@@ -1,8 +1,8 @@
 .jumbotron {
-    background-color: #2E2D88;
+    background-color: #000000;
     color: white;
     font-size: 40px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Metamorphous', cursive;  
     text-align: center;
 }
 
@@ -34,4 +34,9 @@ address {
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
   text-align: inherit;
+}
+#hash {
+  font-size: 15px;
+  font-family: 'Indie Flower', cursive;
+
 }
