@@ -15,12 +15,7 @@
 }
 body {
   font-family: 'Shadows Into Light', cursive;
-  background-image: url(images/pic7.jpg);
 }
-}
-.buttons {
-  text-align: center;
-  color: #E0E0CB;
 }
 address {
   text-align: center;
@@ -30,10 +25,13 @@ address {
   text-align: center;
   text-decoration-color: #86862D
 }
-.img-rounded {
+.img-responsive {
   float: right;
+  border-radius: 80%;
+
 }
 .well {
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
+  text-align: inherit;
 }
