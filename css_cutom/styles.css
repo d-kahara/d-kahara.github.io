@@ -174,3 +174,27 @@ p {
 .about li, {
   color: #737373;
 }
+.contact {
+  padding: 50px 0 80px;
+  text-align: center;
+}
+.contact p {
+  color: #737373;
+}
+.contact img {
+  height: 150px;
+  width: 150px;
+  margin-top: 80px;
+}
+.contact i {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 50%;
+  background-color: #a0db8e;
+  color: #fff;
+}
+.contact a:hover{
+  background-color: #709963;
+}
