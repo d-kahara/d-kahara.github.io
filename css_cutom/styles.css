@@ -172,6 +172,24 @@ p {
 
 
 
+table img {
+  width: 350px;
+  height: 190px;
+  overflow: hidden;
+}
+
+table td {
+  padding-left: 40px;
+  padding-top: 20px;
+
+}
+
+table img:hover {
+  transform: scale(1.1);
+  transition: all .4s ease-in;
+  filter: grayscale(1);
+}
+
 
 /*Typed Js CSS*/
 .typed {
