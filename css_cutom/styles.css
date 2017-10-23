@@ -143,18 +143,7 @@ p {
 }
 
 /*About Section*/
-.about {
-  padding: 50px 0 50px;
-  text-align: center;
-  background-color: #3399ff;
-}
-.about h4,
-.about p {
-  color; #fff;
-}
-.about p {
-  padding-bottom: 40px;
-}
+
 .about {
   padding: 30px;
   border: 1px solid #ccc;
@@ -164,48 +153,147 @@ p {
   font-family: 'Philosopher', sans-serif;
   color: #fff;
   display: block;
+  text-align: center;
+  font-size: 2.5rem;
 }
+
+.abtHeader {
+  font-size: 3rem;
+  font-family: 'Architects Daughter', cursive;
+
 }
+
 
 }
 .hash {
   display: block;
   padding: 5px;
 }
-.about h4
-.about h1 {
-  color: #4c4c4c;
-}
-.about p,
-.about li, {
-  color: #737373;
-}
-.about p {
-  font-size:
+
+
+
+
+/*Typed Js CSS*/
+.typed {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+
 }
 
+body {
+	background: #34495e;
+	color: #ecf0f1;
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	display: block;
+	min-height: 200px;
+	width: 100%;
+	position: relative;
+}
+.typed_wrap {
+	display: block;
+	border: 4px solid #ecf0f1;
+	width: 400px;
+	height: auto;
+	padding: 30px;
+
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-80%,-80%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-80%,-80%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.typed_wrap h1 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.btns {
+	display: block;
+	width: 400px;
+	margin: 0;
+	padding: 30px 0 0 30px;
+}
+.btns a {
+	display: inline-block;
+	margin-left: 5px;
+}
+.btns a:first-child{margin-left:0}
+.btn {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+a .btn {
+	cursor: pointer;
+	border: 1.5px solid #ecf0f1;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px;
+	list-style-type: none;
+	transition: all .3s;
+}
+
+.btn:hover {
+	background: #ecf0f1;
+	color: #34495e;
+}
 
 /*Contact Section*/
-.contact {
-  padding: 50px 0 80px;
+#navBottom {
   text-align: center;
+  background-color: black;
+  border-radius: 3%;
+  border-style: groove;
+  height: 10rem
 }
-.contact p {
-  color: #737373;
+.footerName {
+  color: white;
 }
-.contact img {
-  height: 150px;
-  width: 150px;
-  margin-top: 80px;
-}
-.contact i {
-  height: 30px;
-  width: 30px;
-  padding: 5px;
-  font-size: 17px;
-  border-radius: 50%;
-  background-color: #a0db8e;
-  color: #fff;
+#contact {
+  font-size: 3rem;
+  color: white;
+
 }
 .contact a:hover{
   background-color: #709963;
