@@ -63,7 +63,7 @@ p {
   width: 100%;
   padding: 30px 0 30px;
   margin-top: 50px;
-  background-image: url(../images/hashImg.jpg);
+  background-image: url(../images/emile-perron-xrVDYZRGdw4-unsplash.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,7 @@ p {
   font-weight: 700;
   padding-top: 30px;
   color: #fff;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .header h1
 .header p,
@@ -150,11 +150,11 @@ p {
   background-color: #4c4c4c;
   border-radius: 5px;
   margin-top: 30px;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'nunito', sans-serif;
   color: #fff;
   display: block;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .abtHeader {
@@ -181,7 +181,7 @@ table img {
 table td {
   padding-left: 40px;
   padding-top: 20px;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Nunito', cursive;
 
 
 }
@@ -195,7 +195,7 @@ table img:hover {
 
 /*Typed Js CSS*/
 .typed {
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Nunito', sans-serif;;
   font-size: 30px;
 
 }
@@ -222,7 +222,7 @@ body {
 	/*centers it in the .banner*/
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 10%;
 	-webkit-transform: translate(-80%,-80%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-80%,-80%);
@@ -298,13 +298,65 @@ a .btn {
 	color: #34495e;
 }
 
+/* Git section */
+.github-graph {
+  margin-bottom: 30px;
+}
+
+.github-graph .js-calendar-graph-svg {
+  max-width: 100%;
+}
+
+.github-graph h2 {
+  font-size: 18px;
+}
+
+.ghfeed {
+  height: 500px;
+}
+
+.ghfeed,
+.ghfeed *,
+.ghfeed *:before,
+.ghfeed *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* Git section */
+.github-graph {
+  margin-bottom: 30px;
+}
+
+.github-graph .js-calendar-graph-svg {
+  max-width: 100%;
+}
+
+.github-graph h2 {
+  font-size: 18px;
+}
+
+.ghfeed {
+  height: 500px;
+}
+
+.ghfeed,
+.ghfeed *,
+.ghfeed *:before,
+.ghfeed *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
 /*Contact Section*/
 #navBottom {
   text-align: center;
   background-color: black;
   border-radius: 3%;
   border-style: groove;
-  height: 10rem
+  height: 12rem
 }
 .footerName {
   color: white;
@@ -316,4 +368,33 @@ a .btn {
 }
 .contact a:hover{
   background-color: #709963;
+}
+
+/* ======= Sections======= */
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section .section-inner {
+  background: #fff;
+  padding: 30px;
+}
+
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 24px;
+}
+
+.section .content .more-link .svg-inline--fa {
+  margin-right: 5px;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
 }
